@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Chonburi&family=Great+Vibes&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nova+Square&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Chonburi&family=Cinzel+Decorative:wght@400;700;900&family=Great+Vibes&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nova+Square&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Chonburi&family=Cinzel+Decorative:wght@400;700;900&family=Great+Vibes&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nanum+Gothic+Coding&family=Nova+Square&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Chonburi&family=Cinzel+Decorative:wght@400;700;900&family=Great+Vibes&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nanum+Gothic+Coding&family=Nova+Square&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Chonburi&family=Cinzel+Decorative:wght@400;700;900&family=Cormorant+Upright:wght@300;400;500;600;700&family=Great+Vibes&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nanum+Gothic+Coding&family=Nova+Square&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+:root {
+
+
+    --bg-color: #f1f1f1;
+    
+    --text: #333;
+    
+    --white: #fff;
+    
+    --active: #ff6600;
+    
+    --active-dark: #f73f07;
+    --normal: #555;
+}
+a{ text-decoration: none;
+    font-size: 10pxSSpx;
+    color: #fff;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Great+Vibes&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0%;
+    font-family: "Kanit", sans-serif;
+    
+}
+body p{
+    color: antiquewhite;
+    
+  
+}
+header{
+    position: sticky;
+    top: 0;
+
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--text);
+}
+li{
+    display: inline-block;
+    padding: 20px;
+    color: #f1f1f1;
+}
+.logo{
+     
+        position: sticky;
+    cursor: pointer;
+    letter-spacing: 5px;
+    font-size: larger;
+    text-transform: uppercase;
+    margin: 10px;
+    font-weight: bold;
+    padding: 20px;
+    color: #f0850b;
+    font-family: "Abril Fatface", serif;;
+    
+    
+}
+.log{
+padding:10px;
+color: #f0efef;
+background-color: var(--active);
+border-radius: 50px;
+}
+.log:hover{
+    background-color: var(--active);
+    transition: 0.7s;
+}
+menu li {
+    position: relative;
+    padding: 0px 20px;
+}
+.menu li a.active{
+    color: var(--active);
+}
+.menu li a:hover{
+    color: var(--active);
+    transition: 0.8s;
+}
+.container{
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    text-align: center;
+  
+}
+.image{
+    align-items: center;
+    border-radius: 10px;
+margin-right: 50px;
+box-shadow: white 4px 3px 4px 0px;
+cursor: pointer;
+margin: 10px;
+transition: 400ms;
+
+
+border: 2px rgb(241, 138, 3)
+}
+img:hover{
+    filter: grayscale(0.5);
+    transform: scale(1.03)
+}
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Chonburi&family=Great+Vibes&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+.head{
+    padding-left: 40px;
+    font-family: "Nova Square", sans-serif;
+    margin: 50px;
+color: var(--active);
+    
+}
+
+footer{
+    display: flex;
+display:;
+    justify-content: space-between;
+    align-items: center;
+    background-color:var(--text);
+padding: 50px;
+
+}
+.li{
+    display: inline-block;
+    padding: 20px;
+    color: #f1f1f1;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration:double;
+}
+.foot li a {
+    color: #f0850b;
+    margin-top: 0px;
+    padding: 0%;
+    position: relative;
+    bottom: 20px;
+    }
+    .foot p{
+        color: #f0e7e7;
+        position: relative;
+        bottom: 20px;
+      
+    }
+    .center li a{
+        color: #f0850b;
+        }
+        .centerp{
+            color: #f0e7e7;
+        }
+        .name li a{
+            color: #f0850b;
+            }
+            .name p{
+                color: #f0e7e7;
+            }
+.box{
+margin: 30px auto;
+padding: 40px;
+text-align: center;
+background-color:rgba(0, 0, 0, 0.123);
+width: 500px;
+border: #f73f07;
+justify-content: center;
+align-items: center;
+color: var(--active);
+text-decoration: double;
+font-size: larger;
+font-weight: 900px;
+}
+.box  input{
+    background-color:rgba(0, 0, 0, 0.199);
+    border-radius: 5px;
+    width: 450px;
+    box-sizing: border-box;
+    font-size: medium;
+    color: #f0e7e7;
+}
+.box lable{
+    display: block;
+    align-items: left;
+    text-align: left;
+    padding-left: 30px;
+    padding: auto;
+}
+body{
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(https://wallpaperaccess.com/full/1724589.jpg);
+}
+.box .text{
+    display:block;
+}
+.content{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: lighten;
+color: aliceblue;
+box-sizing: border-box;
+padding:30px;
+margin:50px;
+
+justify-content: center;
+}
+div .f1{
+    color: var(--active);
+    font-family: "Nanum Gothic Coding", monospace;
+}
+.f3 li{
+    position: relative;
+    top: 95px;
+    font-size: larger;
+    font-weight: 200;
+    font-style: bold;
+
+    text-shadow: 0cm;
+    text-decoration: none;
+    color: #f0e7e7;
+}
+div img{
+border-radius: 20px;
+border-color: #f0850b;
+}
+.ok {
+    color: var(--active);
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    text-transform: initial;
+}
+.oho{
+    font-family: "Cormorant Upright", serif;
+color: #f06e04;
+}
+.border{
+   position: relative; 
+   top: 130px;
+
+background-color: #ffffff;
+left: 4px;
+margin-left: 60px;
+cursor: pointer;
+transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+border-radius: 7px;
+
+justify-content: left;
+align-items: left;
+width: 300px;
+
+box-shadow: 3px 3px 5px rgb(0, 0, 0);
+
+}
+.border h2{
+    color: #ff6600;
+    text-align: center;
+    text-decoration: underline;
+}
+.border p{
+    text-align: center;
+    color: #555;
+}
+.border:hover{
+   
+
+   transition: 0.8s;
+   border-color: rgba(241, 114, 10, 0.863)0.4);
+}
+.menu i{
+    padding: 8px;
+   color: var(--active);
+}
+.page {
+    box-shadow: 3px 3px 5px rgb(0, 0, 0);
+    display: flex;
+   border-width: 50px;
+  margin-left: 30px;
+  padding-top: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgba(255, 255, 255, 0.699);
+ box-sizing: border-box
+padding:30px auto;
+width: 450px;
+border-radius: 10px;
+
+margin:10px auto;
+justify-content: center;
+}
+ .v1 img{
+    width: 200px;
+    padding: 30px auto;
+    justify-content: left;
+    
+    margin: 10px auto;
+}
+.v2 h3{
+    font-size: larger;
+    text-decoration: underline;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    color: var(--active);
+}
+.v2 p{
+    color: #555;
+    text-align: center;
+}
+.v2 li{
+background-color: #f0850b;
+justify-content: center;
+margin-bottom: 0%;
+margin: auto;
+padding: 10px;
+border-radius: 10px;
+
+left: 13px;
+padding: 10px;
+margin: 5px;
+}
+.v2 i{
+    position: relative;
+    left: 13px;
+  top:23px;
+    color: var(--active-dark);
+    box-shadow: 0 0 5px rgb(255, 136, 0);
+      
+2px  10px 25px rgb;
+}
+.v2 li:hover{
+    background-color: var(--active-dark);
+    transition: 0.2s;
+    cursor: pointer;
+    transform: scale(1.03);
+    box-shadow: 0 0 5px rgb(248, 163, 5);
+}
+.motor{
+
+    display: flex;
+    
+align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin: 40px;
+}
+ .car{
+justify-content: space-between;
+margin:10px auto;
+padding: 20px;
+
+}
+
+.submit input{
+color: #f06e04;
+cursor: pointer;
+}
+.submit input:hover{
+    background-color: var(--active-dark);
+    transition: 0.2s;
+    cursor: pointer;
+    transform: scale(1.03);
+    box-shadow: 0 0 5px rgb(248, 163, 5);
+}
+.icon{
+color: #f06e04;
+font-size:40px;
+justify-content: left;
+margin-left: 70px;
+display: flex;
+padding: 10px;
+}
+.fa-share-nodes{
+    color: #f06e04;
+    align-items: center;
+    margin-left: 80px;
+}
+.r p{
+    font-style: italic;
+    text-shadow: #f06e04;
+    position: relative;
+    top: 13px;
+    font-size: 25px;
+    padding-left: 20px ;
+color: #fdfaf7d2;
+}
+.page:hover{
+    cursor: pointer;
+    transform: scale(1.09);
+    box-shadow: 0 0 5px rgba(236, 116, 4, 100);
+    
+}
+.all{
+   
+    background-color: #e2ddddfd;
+    border-radius: 30px;
+    }
+    .we{
+        color: #f06e04;
+        font-family: "Cormorant Upright", serif;
+        text-align: center;
+        font-size:60px;
+        position: relative;
+        top: 30px;
+        
+    }
+    .open .part {
+        color: var(--active);
+        text-align: center;
+
+    }
+   .open .card{
+    color: #f0efef;
+    font-family: "Cormorant Upright", serif;
+    text-align: center;
+    font-size: 30px;
+   }
+   .table ,th,td{
+    border:ipx solid red;
+    color: #f06e04;
+   }
+   .block{
+    display: flex;
+    justify-content:center;
+    color: var(--active);
+    padding: 5px;
+    margin: 30px;
+    
+    
+   }
+   .mass{
+    box-shadow:8,0,6,4 #f06e04;
+    margin: 5px auto;
+    border-radius: 20px;
+    padding: 10px;
+ background-color: #f0efef;
+   }
+   .out{
+    box-shadow:8,0,6,4 #f06e04;
+    margin: 5px auto;
+    border-radius: 20px;
+    padding: 10px;
+ background-color: #f0efef;
+   }
+ .sub{
+    position: relative;
+    right: 20px;
+    width: 100px;
+    background-color: #0000004b;
+    color: var(--active);
+    border-radius: 5px;
+    border-color: #f0e7e7;
+    box-shadow:30,20,40,0 #f06e04;
+ }
+ .bun{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-family: "Nanum Gothic Coding", monospace;
+   font-size: 30px;
+   letter-spacing: 100px;
+   font-style: italic;
+   font-style: oblique;
+ }
+ .popup{
+    width: 400px;
+    position: absolute;
+    top:0;
+
+    left: 50px;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    visibility: hidden;
+    transition: transform 0.4s, op 0.4s;
+ }
+ .open-popup{
+    visibility: visible;
+    top:50px;
+    transform: translate(-50%,-50%) scale(1);
+ }
